@@ -1,0 +1,11 @@
+#JSGF V1.0
+
+/**
+* JSGF Grammar
+*/
+
+grammar grammar;
+
+public <numbers> = (Hallo|wie|geht|es|dir|eins|zwei|drei|komponente|mischer|hinein|heraus|zoomen);
+public <action> = (plus|minus|multiply|division|);
+public <final> = (show result);

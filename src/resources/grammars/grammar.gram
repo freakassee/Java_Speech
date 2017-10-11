@@ -1,0 +1,5 @@
+#JSGF V1.0; 
+grammar grammar;
+<unit>     = zoome|hinein|raus|hallo welt|hallo|oliver;
+<number>  = fuenf|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN|HUNDRED|THOUSAND;
+public <phrases> = (WHAT IS YOUR NAME) | <number> [<number>*] <unit> (EQUAL TO) [HOW MANY] <unit> ;
